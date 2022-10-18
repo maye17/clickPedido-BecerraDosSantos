@@ -536,7 +536,7 @@ ul, li {
     }
 
     .container__intro p {
-        margin-top: 35vh;
+        margin-top: 40vh;
         font-size: 15px;
         text-align: justify;
     }
@@ -546,6 +546,19 @@ ul, li {
         margin: 20px;
         font-size: 15px;
         text-align: justify;
+    }
+
+
+  
+
+    #card-1{
+        margin-left: 32rem;
+    }
+    
+    
+    .box__menu__container {
+        width: 300px;
+        margin: 20px auto;
     }
 
 }
