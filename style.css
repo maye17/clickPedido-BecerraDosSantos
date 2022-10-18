@@ -252,7 +252,7 @@ ul, li {
     height: 300px;
     border:1px solid black;
     margin: 5px;
-    padding: 10px;
+    padding: 10px 0px 3px 0;
     z-index: 1;
     border-radius: 10px;
     background-image: radial-gradient(circle, #f5f6f6, #f3f5f5, #f1f4f4, #eef3f3, #ecf2f2);
@@ -275,10 +275,23 @@ ul, li {
 
 }
 
-.box__menu-card-list {
+.box__menu__container-card-list {
 
     display: flex;
 
+}
+
+.box__menu__container-card-list p {
+
+    padding: 10px;
+    margin: 10px;
+    font-size: 13px;
+}
+
+.box__menu__container-rec {
+    margin: 10px;
+    text-align: start;
+    font-size: 12px;
 }
 .box__menu-card-list ul, li {
     font-size: 12px;
@@ -293,8 +306,10 @@ ul, li {
 }
 
 .box__menu-card-img img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
+    border-top-left-radius: 10px;  
+    border-bottom-left-radius: 10px;
 
 }
 
@@ -311,6 +326,7 @@ ul, li {
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
+    margin: 2px;
 }
 
 .box__menu-card-btn {
