@@ -205,7 +205,7 @@ ul, li {
 
 /* Clase Bootsrtrap */
 
-.btn btn-outline-danger {
+.btn-outline-danger {
     font-size: 15px;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -213,11 +213,14 @@ ul, li {
 
 
 .box {
-    display: flex;
+/*     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
-    background-color: #f4f6f7;
+    flex-flow: row wrap; */
+    display: grid;
+    grid-template-rows: repeat(3,0.3fr);
+    align-content: center;
+  /*   background-color: #f4f6f7; */
 }
 
 
@@ -445,6 +448,12 @@ ul, li {
         margin-left: 18rem;
     }
 
+    .box__menu__container {
+        width: 500px;
+        height: auto;
+
+    }
+
 }
 
 
@@ -503,3 +512,24 @@ ul, li {
     }
     
 
+@media (max-width:768px) {
+
+    .box {
+
+            display: grid;
+            grid-template-rows: repeat(3,0.3fr);
+            align-content: center;
+            background-color: #f4f6f7;
+        }
+
+        .box__menu {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            align-content: center;
+            justify-content: center;
+            align-self: center;
+            margin: auto;
+
+        }
+    
+}
