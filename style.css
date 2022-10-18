@@ -532,7 +532,7 @@ ul, li {
 
 
     .container__intro {
-        margin-top: 30px;
+        margin-top: 45vh;
     }
 
     .container__intro p {
@@ -557,7 +557,7 @@ ul, li {
     
     
     .box__menu__container {
-        width: 300px;
+        width: 370px;
         margin: 20px auto;
     }
 
