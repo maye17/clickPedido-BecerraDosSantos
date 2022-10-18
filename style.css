@@ -18,7 +18,7 @@
 
 .navbar-brand {
 
-    margin:40px;
+    margin:5px;
     font-weight: bolder;
     font-size: 30px !important;
     font-style: italic;
@@ -35,7 +35,7 @@ ul, li {
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center 10%;
-    height: 200px;
+    height: 180px;
     width: 70%;
     display: flex;
     flex-flow: column wrap;
@@ -79,7 +79,7 @@ ul, li {
 /* body */
 
 .container__intro {
-    margin-top: 70vh;
+    margin-top: 50vh;
 }
 
 .container__intro p {
@@ -176,7 +176,7 @@ ul, li {
 }
 
 #card-1{
-    margin-left: 14rem;
+    margin-left: 22rem;
 }
 
 .boxs__card img {
@@ -210,6 +210,117 @@ ul, li {
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color: #f4f6f7;
+}
+
+
+.box__title {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box__title h2 {
+    font-size: 45px;
+    
+}
+
+.box__menu {
+    display: grid;
+    grid-template-columns: repeat(2,0.4fr);
+    margin-top: 2rem;
+    justify-content: center;
+    align-content: center;
+
+
+    
+}
+
+
+
+.box__menu__container {
+
+    width: 600px;
+    height: 300px;
+    border:1px solid black;
+    margin: 5px;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 10px;
+    background-image: radial-gradient(circle, #f5f6f6, #f3f5f5, #f1f4f4, #eef3f3, #ecf2f2);
+
+}
+
+.box__menu__container-title {
+
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      
+  }
+
+.box__menu__container-card {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box__menu-card-list {
+
+    display: flex;
+
+}
+.box__menu-card-list ul, li {
+    font-size: 12px;
+
+}
+
+.box__menu-card-img {
+ 
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.box__menu-card-img img {
+    width: 100px;
+    height: 100px;
+
+}
+
+
+.box__menu-card-price {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.box__menu-card-price p {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.box__menu-card-btn {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    
+}
+
+
 
 /* Footer */
 
@@ -315,10 +426,12 @@ ul, li {
     }
 
     #card-1{
-        margin-left: 30rem;
+        margin-left: 18rem;
     }
 
 }
+
+
 
 
 @media (max-width:992px) {
@@ -353,7 +466,7 @@ ul, li {
     }
 
     #card-1{
-        margin-left: 30rem;
+        margin-left: 10rem;
     }
 
 
