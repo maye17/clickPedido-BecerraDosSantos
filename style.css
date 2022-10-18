@@ -1,0 +1,376 @@
+* {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+.navbar {
+
+    padding: 0 !important;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+
+    margin:40px;
+    font-weight: bolder;
+    font-size: 30px !important;
+    font-style: italic;
+
+}
+ul, li {
+    list-style: none;
+}
+
+
+.container__nav {
+    width: 70% !important;
+    background-image: url(./assets/grilled-food-gb131c5d11_640.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center 10%;
+    height: 200px;
+    width: 70%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+
+}
+
+.container__nav-img {
+    width:180px;
+    height:180px;
+    border: 6px solid black;
+    border-radius: 90px ;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+
+}
+
+
+.container__nav-list {
+    margin: 5px 50px 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container__nav-hour {
+    width: 70%;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    background-image: radial-gradient(circle, #ef113b, #e61247, #dc1851, #d1205a, #c52861);
+}
+
+/* body */
+
+.container__intro {
+    margin-top: 70vh;
+}
+
+.container__intro p {
+
+    margin: 10px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.container__intro h4 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.container__intro h4 img {
+    width: 36px;
+    height: 36px;
+}
+
+.container__intro-title {
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container__intro-title h2 {
+    font-size: 75px;
+    font-style: italic;
+    z-index: 0;
+    animation-name: Boxtitle;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.scrollDestacados {
+    max-width: 70%;
+    overflow: auto;
+    white-space:nowrap;
+    background-color: #3333;
+    justify-items: center;
+
+    
+}
+
+.boxs {
+
+
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-content: center;
+    font-size: 15px;
+    font-style: italic;
+    z-index: 0;
+    animation-name: Boxtitle;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+@keyframes Boxtitle {
+    0% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+
+
+
+
+.boxs__card {
+
+    width: 400px;
+    margin:10px 25px;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;    
+    box-shadow: 0 25px 50px -12px black;
+}
+
+#card-1{
+    margin-left: 14rem;
+}
+
+.boxs__card img {
+    margin: 20px 10px;
+    height: 200px;
+    width: 250px;
+}
+
+.boxs__card h2 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.boxs__card p {
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+
+.scroll-destacados {
+ 
+    overflow: auto;
+    white-space: nowrap;
+}
+
+/* Clase Bootsrtrap */
+
+.btn btn-outline-danger {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Footer */
+
+.footer__content img {
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+}
+
+/* Medias Queries */
+
+/* Index */
+
+@media (max-width:1200px) {
+
+
+    .navbar {
+
+        padding: 0 !important;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar-brand {
+    
+        margin:20px;
+        font-weight: bolder;
+        font-size: 20px !important;
+        font-style: italic;
+    
+    }
+    ul, li {
+        list-style: none;
+    }
+    
+    
+    .container__nav {
+        width: 50% !important;
+        height: 150px;
+  
+    
+    }
+    
+    .container__nav-img {
+        width: 120px;
+        height:120px;
+        border: 6px solid black;
+        border-radius: 90px ;
+        display: inline-block;
+        position: relative;
+        padding: 10px;
+    
+    }
+    
+    
+    .container__nav-list {
+        margin: 5px 50px 5px 0;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .container__nav-hour {
+        width: 70%;
+        font-size: 14px;
+        font-weight: none;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        background-image: radial-gradient(circle, #ef113b, #e61247, #dc1851, #d1205a, #c52861);
+    }
+
+    .container__intro {
+        margin-top: 5vh;
+    }
+    
+    .container__intro p {
+        
+        margin-top: 60vh;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+
+    .boxs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+    .boxs__card {
+
+        justify-content: center;
+        width: 450px;
+        margin: 40px;
+
+    }
+
+    #card-1{
+        margin-left: 30rem;
+    }
+
+}
+
+
+@media (max-width:992px) {
+
+    .container__intro {
+        margin-top: 40vh;
+    }
+
+    .container__intro p {
+        margin-top: 45vh;
+        font-size: 15px;
+    }
+
+    .container__intro h4 {
+        font-size: 16px;
+    }
+
+    .container__intro-title h2{
+        font-size: 40px;
+    }
+
+
+    .boxs {
+        width: 70%;
+    }
+
+    .boxs__card {
+
+      
+        margin: 25px;
+
+    }
+
+    #card-1{
+        margin-left: 30rem;
+    }
+
+
+    .boxs__card img {
+        width: 150px;
+    }
+
+    .boxs__card h2 {
+        font-size:13px;
+    }
+
+    .boxs__card p {
+
+        font-size: 11px;
+    }
+
+
+    }
+    
+

@@ -1,0 +1,15 @@
+{
+  "name": "clickpedido-becerradossantos",
+  "version": "1.0.0",
+  "description": "Proyecto de desarrollo con javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css"
+  },
+  "author": "Mayerlin Becerra Dos Santos",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
